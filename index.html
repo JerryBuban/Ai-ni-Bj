@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="header">
+            <div class="ai-avatar">AI</div>
+
+            <div>
+                <h1>My AI</h1>
+                <p>Always here to talk.</p>
+            </div>
+        </header>
+
+        <main class="chat" id="chat">
+
+            <div class="message ai">
+                <div class="bubble">
+                    Yo 👋 I'm here.
+                    <br><br>
+                    Talk to me about whatever's on your mind.
+                </div>
+            </div>
+
+        </main>
+
+        <form class="input-area" id="chatForm">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Message your AI..."
+                autocomplete="off"
+                maxlength="2000"
+            >
+
+            <button type="submit" id="sendButton">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M22 2 11 13"></path>
+                    <path d="m22 2-7 20-4-9-9-4Z"></path>
+                </svg>
+            </button>
+
+        </form>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
